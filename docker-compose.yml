@@ -1,0 +1,7 @@
+services:
+  update_app:
+    image: reg.iaas.arvaninternal.ir/lab/arcdngroup_rule_update
+    volumes:
+      - .:/code
+    environment:
+      - MESSAGE="Hello World!"
